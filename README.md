@@ -1,7 +1,7 @@
 # Guessing Game
 
 This is a simple guessing game that I wrote to
-learn the basics of Swift.
+learn some Swift basics.
 
 Watch the YouTube playlist to see me program
 this from the start:
