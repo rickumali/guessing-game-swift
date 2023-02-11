@@ -20,14 +20,16 @@ while (!guessedRight) {
   } else if num == -99 {
     print("The number is \(correctNumber)")
     guessCount -= 1
-  } else if guessCount > 5 {
-    if num < correctNumber {
-      print("It's higher. Guess again")
-    } else if num > correctNumber {
-      print("It's lower. Guess again")
-    }
+  } else if abs(num - correctNumber) < 2 {
+    print("So close! Guess again.")
+  } else if abs(num - correctNumber) < 3 {
+    print("Really warm! Guess again.")
+  } else if abs(num - correctNumber) < 5 {
+    print("Warmer! Guess again.")
+  } else if abs(num - correctNumber) < 10 {
+    print("Warm! Guess again.")
   } else {
-    print("Nope! Guess again.")
+    print("Not even close. Guess again.")
   }
 }
 
