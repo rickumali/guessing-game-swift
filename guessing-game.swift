@@ -32,3 +32,6 @@ while (!guessedRight) {
 }
 
 print("You got it! You took \(guessCount) guess\(guessCount == 1 ? "" : "es")")
+if guessCount == 1 {
+  print("That's incredible!")
+}
