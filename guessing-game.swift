@@ -16,7 +16,6 @@ while (!guessedRight) {
   guessCount += 1
 
   if num == correctNumber {
-    print("You got it! It took \(guessCount) guesses")
     guessedRight = true
   } else if num == -99 {
     print("The number is \(correctNumber)")
@@ -31,3 +30,5 @@ while (!guessedRight) {
     print("Nope! Guess again.")
   }
 }
+
+print("You got it! You took \(guessCount) guess\(guessCount == 1 ? "" : "es")")
