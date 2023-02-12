@@ -17,3 +17,9 @@ command line. Then type:
 $ swiftc guessing-game.swift
 ```
 
+# Running
+
+After you compile with the above command, then it's in
+the same directory. Run with:
+
+$ ./guessing-game
