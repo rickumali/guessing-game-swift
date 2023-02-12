@@ -37,3 +37,9 @@ print("You got it! You took \(guessCount) guess\(guessCount == 1 ? "" : "es")")
 if guessCount == 1 {
   print("That's incredible!")
 }
+if guessCount > 1 && guessCount <= 3{
+  print("That's awesome!")
+}
+if guessCount > 3 && guessCount < 6{
+  print("That's very good!")
+}
